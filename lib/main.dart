@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:listview/list.dart';
+import 'package:listview/tabs.dart';
 
 void main() {
   runApp(Main());
@@ -12,7 +13,7 @@ class Main extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: List(),
+      home: Tabbar(),
     );
   }
 }
